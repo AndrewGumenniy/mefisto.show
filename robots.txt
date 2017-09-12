@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /success
+Disallow: /failure
+Disallow: /error
+Host: https://mefisto.show

@@ -1,0 +1,884 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="description" content="Шоу-иллюзионист Александр Мефисто. Авторское шоу иллюзии и перевоплощения на вашем празднике. Лучшее шоу по версии Артис-2016.">
+  <meta name="keywords" content="Александр Мефисто, иллюзионист, шоу-иллюзионист, шоу иллюзии, илююзионист днепр, иллюзионист свадьба, фокусник днепр, фокусники днепр, заказ фокусника, alexandr mefisto, волшебное свидание">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Александр Мефисто - фокусник, шоу-иллюзионист</title> 
+  <link rel="apple-touch-icon" sizes="60x60" href="images/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicons/favicon-16x16.png">
+  <link rel="manifest" href="images/favicons/manifest.json">
+  <link rel="mask-icon" href="images/favicons/safari-pinned-tab.svg" color="#5c5675">
+  <meta name="theme-color" content="#ffffff">
+  <script src="lib/jquery/jquery-3.1.1.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="lib/FontAwesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="main.css">
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-104531963-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+</head>
+
+<body  onload="deleteHashInURL()">
+  <div class="wrap">
+  
+    <header class="header">
+
+      <div class="logo">
+        <img src="images/main_logo.png" alt="Александр Мефисто логотип">
+      </div>
+
+      <div class="hamburger-menu">
+         <div class="bar1"></div>
+         <div class="bar2"></div>
+         <div class="bar3"></div>
+      </div>
+     
+      <ul id="main-nav">
+      	<li class="closebtn" >×</li>
+        <li> <a href="#about">почему я</a> </li>
+        <li> <a href="#photo">фото/видео</a> </li>
+        <li> <a href="#rewards">награды</a> </li>
+        <li> <a href="#show-programs">шоу-программы</a> </li>
+        <li> <a href="#theatre">театры</a> </li>
+        <li> <a href="#contacts">контакты</a> </li>
+      </ul>
+
+      <ul class="contacts">
+        <li> <i class="fa fa-phone" aria-hidden="true"></i>+3 8(063)24 14 954</li>
+        <li> <i class="fa fa-envelope" aria-hidden="true"></i><a id="mail-form">alexandr.mefisto@gmail.com</a></li>
+        <div  class="modal mail-letter">
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <div class="text-content">
+                <h3>Написать письмо</h3>
+                <form class="show-form rf" action="send.php" method="post">
+                  <input type="hidden" name="formname" value="Форма для письма">
+                  
+                  <h4>Пожелания по длительности и содержанию программы:</h4>
+                  <p>
+                    <textarea class="myfocus-time" name="time" placeholder="Напишите пожелания..."></textarea>
+                  </p>
+                  <div class="input-class">
+                    <input type="text" name="name" class="rfield" placeholder="Введите ваше имя...">
+                    <i class="fa fa-user"></i>
+                  </div>
+                  <div class="input-class">
+                    <input type="text"  name="phone" class="phone rfield" placeholder="Введите ваш телефон...">
+                    <i class="fa fa-phone"></i>
+                  </div>
+                  <div class="input-class">
+                    <input type="text" name="email"  placeholder="Введите ваш e-mail...">
+                    <i class="fa fa-envelope"></i>
+                  </div>
+                  <input type="submit" class="btn_submit disabled" value="Отправить" >
+                </form>
+              </div>
+            </div>
+          </div>
+      </ul>
+
+      <ul class="socialnetworks">
+        <li> В соцсетях</li><br>
+        <li> <a target="_blank" href="https://vk.com/mefisto.show"><i class="fa fa-vk" aria-hidden="true"></i></a> </li>
+        <li> <a target="_blank" href="https://www.instagram.com/mefisto.show/"><i class="fa fa-camera" aria-hidden="true"></i></a> </li>
+        <li> <a target="_blank" href="https://www.facebook.com/1841780462766326/"><i class="fa fa-facebook-square" aria-hidden="true"></i></a> </li>
+      </ul>
+    </header>
+
+    <section class="main-block">
+      <div class="main-img">
+        <div class="main-text">
+          <h1>
+        	Шоу-иллюзионист Александр Мефисто       
+      	  </h1>
+          <h2>
+        	Авторское шоу иллюзии и перевоплощения на вашем празднике.<br>
+        	Лучшее шоу по версии "Артис-2016"
+      	  </h2>
+        </div>
+	    <div class="youtube" data-embed="mNZIpQ4JUkU">
+	      <div class="play-button"></div>
+	    </div>
+      </div>
+    </section>
+
+    <section class="show-items" >
+      <h3>Почему выбирают шоу Александра Мефисто</h3> 
+      <div class="item" id="about">
+        <i class="fa fa-magic" aria-hidden="true"></i><br>
+        <p class="header">Член международного общества иллюзионистов IMS</p>
+        <p class="sign">В IMS так же состоят Дэвид Коперфильд, Крисс Энжел, Лэнс Бёртон</p>
+      </div>
+      <div class="item">
+        <i class="fa fa-commenting" aria-hidden="true"></i><br>
+        <p class="header">Опыт работы</p>
+        <p class="sign">7 лет в создании иллюзионных шоу<br> 637 выступлений 
+        <br>5342 восторженных зрителя</p>
+      </div>
+      <div class="item">
+        <i class="fa fa-black-tie" aria-hidden="true"></i><br>
+        <p class="header">Дорогие и стильные образы</p>
+        <p class="sign">Соответствующие уровню вашего торжества</p>
+      </div>
+      <div class="item">
+        <i class="fa fa-microphone" aria-hidden="true"></i><br>
+        <p class="header">Харизма и юмор</p>
+        <p class="sign">Шоу проходит в непрерывном, живом общении со зрителями</p>
+      </div>  
+      <div class="item">
+        <i class="fa fa-id-card" aria-hidden="true"></i><br>
+        <p class="header">Программа постоянно совершенствуется</p>
+        <p class="sign">Шоу-программа разрабатывается индивидуально под вас</p>
+      </div>
+      <div class="item">
+        <i class="fa fa-thumbs-up" aria-hidden="true"></i><br>
+        <p class="header">Больше ожидаемого</p>
+        <p class="sign">Вы получаете всегда больше, чем ожидаете</p>
+      </div>
+      <div class="item">
+        <i class="fa fa-eye" aria-hidden="true"></i><br>
+        <p class="header">Эффект полного погружения</p>
+        <p class="sign">Полное погружение в действо, зрители сами становятся участниками шоу</p>
+      </div>
+      <div class="item">
+        <i class="fa fa-heartbeat" aria-hidden="true"></i><br>
+        <p class="header">Искренние эмоции</p>
+        <p class="sign">Искренние и неподдельные эмоции, гости еще долго будут вспоминать о вашем празднике</p>
+      </div>
+    </section>
+
+    <section class="photos" >
+      <h3>Фото/Видео</h3>
+      <div class="main-img"></div>
+      <div class="images" id="photo">
+        <a href="/photo#12" ><img  src="images/photos/pic_1.jpg" alt="Александр Мефисто карточные фокусы"></a>
+        <a href="/photo#15" ><img src="images/photos/pic_2.jpg" alt="Александр Мефисто детский фокусник"></a>
+        <a href="/photo#14" ><img src="images/photos/pic_3.jpg" alt="Александр Мефисто карточные фокусы"></a>
+        <a href="/photo#11" ><img src="images/photos/pic_4.jpg" alt="Александр Мефисто фокус с веревками"></a>
+        <a href="/photo#13" ><img src="images/photos/pic_5.jpg" alt="Александр Мефисто карточные фокусы"></a>
+        <a href="/photo">
+          <div class="more-info"> <i class="fa fa-camera" aria-hidden="true"></i>
+            <p>Смотреть все фото</p>
+          </div>
+        </a>
+      </div>
+      <div class="video">
+	    <div class="youtube" data-embed="gjeFVDpJcDw">
+	      <div class="play-button"></div>
+		</div>
+		<div class="youtube" data-embed="MakdcXxvVVI">
+		  <div class="play-button"></div>
+		</div>
+		<div class="youtube" data-embed="Oa_JbeCQIpE">
+		  <div class="play-button"></div>
+		</div>
+		<div class="youtube" data-embed="mNZIpQ4JUkU">
+		  <div class="play-button"></div>
+		</div>
+		<div class="youtube" data-embed="bj0LIET3mTM">
+		  <div class="play-button"></div>
+		</div>
+	    <a href="/video">
+	      <div class="more-info more-video"> <i class="fa fa-youtube-play" aria-hidden="true"></i>
+	        <p>Смотреть все видео</p>
+	      </div>
+	    </a>
+      </div>
+    </section>
+
+    <section class="rewards" >
+      <h3>Личные награды и достижения</h3>
+      <div class="main-img"></div>
+      <div class="rewards-wrap" id="rewards">
+        <div class="achieves">
+          <div> <i class="fa fa-trophy" aria-hidden="true"></i>
+            <p>Лауреат всеукраинского Фестиваля фокусников</p>
+            <p>"Творим чудеса вместе 2013" в номинации Cardistry</p>
+          </div>
+          <div> <i class="fa fa-trophy" aria-hidden="true"></i>
+            <p>Лауреат первого и второго "Всеукраинского</p>
+            <p>фестиваля уличного искусства"</p>
+          </div>
+          <div> <i class="fa fa-trophy" aria-hidden="true"></i>
+            <p>Обладатель премии "Артис-2016" в номинации</p>
+            <p>авторское шоу года</p>
+          </div>
+          <div> <i class="fa fa-trophy" aria-hidden="true"></i>
+            <p>Победитель "III всеукраинского фестиваля</p>
+            <p>уличного искусства" в 2017г</p>
+          </div>
+          <div> <i class="fa fa-trophy" aria-hidden="true"></i>
+            <p>Выпускник London Physical</p>
+            <p>Theatre School</p>
+          </div>
+        </div>
+        <div class="images">
+          <div class="top-items">
+            <img src="images/Rewards/smarteventsummit.jpg" alt="Александр Мефисто Smart event summit">
+            <img src="images/Rewards/toghether.jpg" alt="Александр Мефисто Творми чудеса вместе">
+            <img src="images/Rewards/streetart.jpg" alt="Александр Мефисто Всеукраинский фестиваль уличного искусства">
+          </div>
+          <img class="artis" src="images/Rewards/artis.jpg" alt="Александр Мефисто Артис-2016 награда">
+          <img class="magia" src="images/Rewards/magiansociety.jpg" alt="Александр Мефисто International Magicians Society">
+          <div class="items-with-logo">
+            <img src="images/Rewards/motherandi.jpg" alt="Александр Мефисто Мама и я">
+            <img src="images/Rewards/authorshow2016.jpg" alt="Александр Мефисто Артис-2016">
+            <img src="images/Rewards/logo.png" alt="Александр Мефисто лого">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="show-programs" >
+      <h3>Шоу-программы</h3>
+      <div class="items" id="show-programs">
+        <div class="item">
+          <span class="header">Сценическое шоу</span>
+          <img src="images/programs/show.jpg" alt="Александр Мефисто cценическое шоу">
+          <span  class="more-details"><i  class="ref" >Подробнее</i>...</span>
+          <div  class="button">Заказать</div>
+          <div  class="modal">
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <div class="character-img">
+                <div class="slideshow-container">
+                  <div class="mySlides fade">
+                    <img src="images/forms/sceneshow/sceneshow1.jpg" alt="Александр Мефисто cценическое шоу" style="width:100%">
+                  </div>
+                  <div class="mySlides fade">
+                    <img src="images/forms/sceneshow/sceneshow.jpg" alt="Александр Мефисто cценическое шоу" style="width:100%">
+                  </div>
+                  <div class="mySlides fade">
+                    <img src="images/forms/sceneshow/sceneshow2.jpg" alt="Александр Мефисто cценическое шоу" style="width:100%">
+                  </div>
+                  <div class="mySlides fade">
+                    <img src="images/forms/sceneshow/sceneshow3.jpg" alt="Александр Мефисто cценическое шоу" style="width:100%">
+                  </div>
+                  <a class="prev" ><i class="fa fa-caret-left" aria-hidden="true"></i></a>
+                  <a class="next" ><i class="fa fa-caret-right" aria-hidden="true"></i></a>
+                </div>
+              </div>
+              <div class="text-content">
+                <h3>Сценическое шоу</h3>
+                <p>Интерактивное Шоу, которое проходит в живом общении с публикой на сцене!  Юмор, Харизма и Настоящая Магия! </p> <p> Превращения, исчезновения, чтение мыслей, курьезные ситуации и многое другое можно увидеть в Шоу Александра Мефисто.</p>
+
+                <form class="show-form rf" action="send.php" method="post">
+                  <input type="hidden" name="formname" value="Форма выбора шоу-программы">
+                  <input type="hidden" name="formtype" value="Сценическое шоу">
+                  <h4>Выберите персонаж:</h4>
+                  <ul class="choose-character">
+                    <li>
+                      <label class="rad">
+                        <input type="radio" checked name="character" value="Классика" />
+                        <img src="images/characters/classic.jpg" alt="Александр Мефисто персонаж классика"> 
+                      </label>
+                      <p>"Классика"</p>
+                    </li>
+                    <li>
+                      <label class="rad">
+                        <input type="radio" name="character" value="Рок" />
+                        <img src="images/characters/rock.jpg" alt="Александр Мефисто персонаж рок">
+                      </label>
+                      <p>"Рок"</p>
+                    </li>
+                    <li>
+                      <label class="rad">
+                        <input type="radio" name="character" value="Бендер" />
+                        <img src="images/characters/bender.jpg" alt="Александр Мефисто персонаж Бендер">
+                      </label>
+                      <p>"Бендер"</p>
+                    </li>
+                    <li>
+                      <label class="rad">
+                        <input type="radio" name="character" value="Стимпанк" />
+                        <img src="images/characters/stimpank.jpg" alt="Александр Мефисто персонаж Стимпанк">
+                      </label>
+                      <p>"Стимпанк"</p>
+                    </li>
+                  </ul>
+                  <h4>Выберите программу:</h4>
+                  <ul class="choose-program">
+                    <li><input type="radio" name="time"  value="15">Программа на 15 мин</li>
+                    <li><input type="radio" name="time" checked value="30">Программа на 30 мин</li>
+                    <li><input type="radio" name="time" value="45">Программа на 45 мин </li>
+                    <li><input type="radio" name="time" value="premium">Программа "Премиум" </li>
+                  </ul>
+                  <div class="input-class">
+                    <input type="text" name="name" class="rfield" placeholder="Введите ваше имя...">
+                    <i class="fa fa-user"></i>
+                  </div>
+                  <div class="input-class">
+                    <input type="text"  name="phone" class="phone rfield" placeholder="Введите ваш телефон...">
+                    <i class="fa fa-phone"></i>
+                  </div>
+                  <input type="submit" class="btn_submit disabled" value="Заказать" >
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+
+       
+        <div class="item">
+          <span class="header">Свадебное шоу</span>
+          <img src="images/programs/wedding.jpg" alt="Александр Мефисто свадебное шоу">
+          <span  class="more-details"><i  class="ref" >Подробнее</i>...</span>
+          <div  class="button">Заказать</div>
+          <div  class="modal">
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <div class="character-img">
+                <div class="slideshow-container">
+                  <div class="mySlides fade">
+                    <img src="images/forms/wedding/wedding.jpg" alt="Александр Мефисто свадебное шоу" style="width:100%">
+                  </div>
+                  <div class="mySlides fade">
+                    <img src="images/forms/wedding/wedding1.jpg" alt="Александр Мефисто свадебное шоу" >
+                  </div>
+                  <div class="mySlides fade">
+                    <img src="images/forms/wedding/wedding2.jpg" alt="Александр Мефисто свадебное шоу" >
+                  </div>
+                  <a class="prev" ><i class="fa fa-caret-left" aria-hidden="true"></i></a>
+                  <a class="next" ><i class="fa fa-caret-right" aria-hidden="true"></i></a>
+                </div>
+              </div>
+              <div class="text-content">
+                <h3>Свадебное шоу</h3>
+                <p>Шоу, в центре которого находятся молодожены. Яркое, романтичное и незабываемое приключение, где на каждом шагу ждут волшебство и магия.</p>
+
+                <form class="show-form rf" action="send.php" method="post">
+                  <input type="hidden" name="formname" value="Форма выбора шоу-программы">
+                  <input type="hidden" name="formtype" value="Свадебное шоу">
+                  <h4>Выберите программу:</h4>
+                  <ul class="choose-program">
+                    <li><input type="radio" name="time"  value="15">Программа на 15 мин</li>
+                    <li><input type="radio" name="time" checked value="30">Программа на 30 мин</li>
+                    <li><input type="radio" name="time" value="45">Программа на 45 мин </li>
+                    <li><input type="radio" name="time" value="premium">Программа "Премиум" </li>
+                  </ul>
+                  <div class="input-class">
+                    <input type="text" name="name" class="rfield" placeholder="Введите ваше имя...">
+                    <i class="fa fa-user"></i>
+                  </div>
+                  <div class="input-class">
+                    <input type="text"  name="phone" class="phone rfield" placeholder="Введите ваш телефон...">
+                    <i class="fa fa-phone"></i>
+                  </div>
+                  <input type="submit" class="btn_submit disabled" value="Заказать" >
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <span class="header">Встреча гостей</span>
+          <img src="images/programs/guests.jpg" alt="Александр Мефисто встреча гостей">
+          <span  class="more-details"><i  class="ref" >Подробнее</i>...</span>
+          <div  class="button">Заказать</div>
+          <div  class="modal">
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <div class="character-img">
+                <div class="slideshow-container">
+                  <div class="mySlides fade">
+                    <img src="images/forms/meetings/meetings1.jpg" alt="Александр Мефисто встреча гостей" style="width:100%">
+                  </div>
+                  <div class="mySlides fade">
+                    <img src="images/forms/meetings/meetings2.jpg" alt="Александр Мефисто встреча гостей" style="width:100%">
+                  </div>
+                  <div class="mySlides fade">
+                    <img src="images/forms/meetings/meetings3.jpg" alt="Александр Мефисто встреча гостей" style="width:100%">
+                  </div>
+                  <a class="prev" ><i class="fa fa-caret-left" aria-hidden="true"></i></a>
+                  <a class="next" ><i class="fa fa-caret-right" aria-hidden="true"></i></a>
+                </div>
+              </div>
+              <div class="text-content">
+                <h3>Встреча гостей</h3>
+                <p>Волшебство непосредственно в Ваших руках! Живое общение в сопровождении удивления и восторга. Фокусы с небольшими предметами карты, шарики, резинки, спички, монеты.</p> <p>Прекрасно подойдёт для встречи гостей, фуршета, фестиваля, массового праздника.</p>
+
+                <form class="show-form rf" action="send.php" method="post">
+                  <input type="hidden" name="formname" value="Форма выбора шоу-программы">
+                  <input type="hidden" name="formtype" value="Встреча гостей">
+                  <h4>Выберите персонаж:</h4>
+                  <ul class="choose-character">
+                    <li>
+                      <label class="rad">
+                        <input type="radio" checked name="character" value="Классика" />
+                        <img src="images/characters/classic.jpg" alt="Александр Мефисто персонаж классика"> 
+                      </label>
+                      <p>"Классика"</p>
+                    </li>
+                    <li>
+                      <label class="rad">
+                        <input type="radio" name="character" value="Рок" />
+                        <img src="images/characters/rock.jpg" alt="Александр Мефисто персонаж рок">
+                      </label>
+                      <p>"Рок"</p>
+                    </li>
+                    <li>
+                      <label class="rad">
+                        <input type="radio" name="character" value="Бендер" />
+                        <img src="images/characters/bender.jpg" alt="Александр Мефисто персонаж Бендер">
+                      </label>
+                      <p>"Бендер"</p>
+                    </li>
+                    <li>
+                      <label class="rad">
+                        <input type="radio" name="character" value="Стимпанк" />
+                        <img src="images/characters/stimpank.jpg" alt="Александр Мефисто персонаж стимпанк">
+                      </label>
+                      <p>"Стимпанк"</p>
+                    </li>
+                  </ul>
+                  <h4>Выберите программу:</h4>
+                  <ul class="choose-program">
+                    <li><input type="radio" name="time"  value="1 час">Программа на 1 час&nbsp;&nbsp;</li>
+                    <li><input type="radio" name="time" checked value="2 часа">Программа на 2 часа</li>
+                    <li><input type="radio" name="time" value="3 часа">Программа на 3 часа</li>
+                    <li><input type="radio" name="time" value="premium">Программа "Премиум" </li>
+                  </ul>
+                  <div class="input-class">
+                    <input type="text" name="name" class="rfield" placeholder="Введите ваше имя...">
+                    <i class="fa fa-user"></i>
+                  </div>
+                  <div class="input-class">
+                    <input type="text"  name="phone" class="phone rfield" placeholder="Введите ваш телефон...">
+                    <i class="fa fa-phone"></i>
+                  </div>
+                  <input type="submit" class="btn_submit disabled" value="Заказать" >
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <span class="header">Предложение руки и сердца</span>
+          <img src="images/programs/offerofmarriage.jpg" alt="Александр Мефисто предложение руки и сердца">
+          <span  class="more-details"><i  class="ref" >Подробнее</i>...</span>
+          <div  class="button">Заказать</div>
+          <div  class="modal">
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <div class="character-img">
+                <div class="slideshow-container">
+                  <div class="mySlides fade">
+                    <img src="images/forms/offer.jpg" alt="Александр Мефисто предложение руки и сердца" height="708" style="width:100%">
+                  </div>
+                </div>
+              </div>
+              <div class="text-content">
+                <h3>Предложение руки и сердца</h3>
+                <p>Вы не знаете как красиво сделать предложение - тогда это то что Вам нужно.</p> <p> Программа, которая выглядит как случайность, в финале которой из пламени появляется обручальное кольцо!</p>
+
+                <form class="show-form rf" action="send.php" method="post">
+                  <input type="hidden" name="formname" value="Форма выбора шоу-программы">
+                  <input type="hidden" name="formtype" value="Предложение руки и сердца">
+                  <input type="hidden" name="time" value="20 минут">
+                  <h4>Длительность программы:</h4>
+                  <div class="timeone-item"> <i class="fa fa-clock-o" aria-hidden="true"></i> <span>20 минут</span></div>
+                  <div class="input-class">
+                    <input type="text" name="name" class="rfield" placeholder="Введите ваше имя...">
+                    <i class="fa fa-user"></i>
+                  </div>
+                  <div class="input-class">
+                    <input type="text"  name="phone" class="phone rfield" placeholder="Введите ваш телефон...">
+                    <i class="fa fa-phone"></i>
+                  </div>
+                  <input type="submit" class="btn_submit disabled" value="Заказать" >
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+       
+        <div class="item">
+          <span class="header">Волшебное свидание</span>
+          <img src="images/programs/dating.jpg" alt="Александр Мефисто волшебное свидание">
+          <span  class="more-details"><i  class="ref" >Подробнее</i>...</span>
+          <div  class="button">Заказать</div>
+          <div  class="modal">
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <div class="character-img">
+                <div class="slideshow-container">
+                  <div class="mySlides fade">
+                    <img src="images/forms/dating.jpg" alt="Александр Мефисто волшебное свидание" height="264" style="width:100%">
+                  </div>
+                </div>
+              </div>
+              <div class="text-content">
+                <h3>Волшебное свидание</h3>
+                <p>Яркое приключение для влюблённых. Шоу которое раскрывает истинные чувства людей с помощью волшебства. </p> <p>Лёгкая и непринужденная атмосфера поможет окунутся в мир Магии и поверить в то что Чудо действительно существует!</p>
+
+                <form class="show-form rf" action="send.php" method="post">
+                  <input type="hidden" name="formname" value="Форма выбора шоу-программы">
+                  <input type="hidden" name="formtype" value="Волшебное свидание">
+                  <input type="hidden" name="time" value="20 минут">
+                  <h4>Длительность программы:</h4>
+                  <div class="timeone-item"> <i class="fa fa-clock-o" aria-hidden="true"></i> <span>20 минут</span></div>
+                  <div class="input-class">
+                    <input type="text" name="name" class="rfield" placeholder="Введите ваше имя...">
+                    <i class="fa fa-user"></i>
+                  </div>
+                  <div class="input-class">
+                    <input type="text"  name="phone" class="phone rfield" placeholder="Введите ваш телефон...">
+                    <i class="fa fa-phone"></i>
+                  </div>
+                  <input type="submit" class="btn_submit disabled" value="Заказать" >
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <span class="header">Театральное шоу</span>
+          <img src="images/programs/theatre.jpg" alt="Александр Мефисто тетральное шоу">
+          <span  class="more-details"><i  class="ref" >Подробнее</i>...</span>
+          <div  class="button">Заказать</div>
+          <div  class="modal">
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <div class="character-img">
+                <div class="slideshow-container">
+                  <div class="mySlides fade">
+                    <img src="images/forms/theatre.jpg" alt="Александр Мефисто тетральное шоу" style="width:100%">
+                  </div>
+                </div>
+              </div>
+              <div class="text-content">
+                <h3>Театральное шоу</h3>
+                <p>Сольное Шоу для больших концертных площадок. До 2000 человек зрителей. Иллюзия поражающая воображение</p>
+
+                <form class="show-form rf" action="send.php" method="post">
+                  <input type="hidden" name="formname" value="Форма выбора шоу-программы">
+                  <input type="hidden" name="formtype" value="Театральное шоу">
+                  <input type="hidden" name="time" value="1час 20 минут">
+                  <h4>Длительность программы:</h4>
+                  <div class="timeone-item"> <i class="fa fa-clock-o" aria-hidden="true"></i> <span>1час 20 минут</span></div>
+                  <div class="input-class">
+                    <input type="text" name="name" class="rfield" placeholder="Введите ваше имя...">
+                    <i class="fa fa-user"></i>
+                  </div>
+                  <div class="input-class">
+                    <input type="text"  name="phone" class="phone rfield" placeholder="Введите ваш телефон...">
+                    <i class="fa fa-phone"></i>
+                  </div>
+                  <input type="submit" class="btn_submit disabled" value="Заказать" >
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <span class="header">Ваш фокус</span>
+          <div class="my-focus">
+          <img src="images/programs/myfocus.jpg" alt="Александр Мефисто ваш фокус">
+          <i class="fa fa-magic" aria-hidden="true"></i></div>
+          <span  class="more-details"><i  class="ref" >Подробнее</i>...</span>
+          <div  class="button">Заказать</div>
+          <div  class="modal">
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <div class="character-img">
+                <div class="slideshow-container">
+                  <div class="mySlides fade">
+                    <div class="modal-my-focus">
+                      <img src="images/forms/myfocus.jpg" alt="Александр Мефисто ваш фокус">
+                      <i class="fa fa-magic" aria-hidden="true"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="text-content">
+                <h3>Ваш фокус</h3>
+                <p>Если вы увидели чудо и хотите его повторить на Вашем празднике, либо мечтаете сами поучаствовать в номере напишите мне и мы вместе реализуем Ваши фантазии! Долго, дорого, уникально!</p>
+
+                <form class="show-form rf" action="send.php" method="post">
+                  <input type="hidden" name="formname" value="Форма выбора шоу-программы">
+                  <input type="hidden" name="formtype" value="Ваш фокус">
+                  <h4>Напишите, что вы хотите видеть:</h4>
+                  <div>
+                    <textarea class="myfocus-time" name="time" placeholder="Напишите пожелания..."></textarea>
+                  </div>
+                  <div class="input-class">
+                    <input type="text" name="name" class="rfield" placeholder="Введите ваше имя...">
+                    <i class="fa fa-user"></i>
+                  </div>
+                  <div class="input-class">
+                    <input type="text"  name="phone" class="phone rfield" placeholder="Введите ваш телефон...">
+                    <i class="fa fa-phone"></i>
+                  </div>
+                  <input type="submit" class="btn_submit disabled" value="Заказать" >
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="characters">
+      <h3>Выберите персонаж</h3>
+      <div class="items">
+        <div class="item">
+          <span class="header">Классика</span>
+          <img src="images/characters/classic.jpg" alt="Александр Мефисто персонаж классика">
+          <span  class="more-details"><i  class="ref" >Смотреть подробнее характер персонажа</i>...</span>
+          <div  class="button">Заказать</div>
+          <div  class="modal">
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <div class="character-img">
+                <div class="slideshow-container">
+                  <div class="mySlides fade">
+                    <img src="images/forms/classic/classic1.jpg" alt="Александр Мефисто персонаж классика">
+                  </div>
+                  <div class="mySlides fade">
+                    <img src="images/forms/classic/classic2.jpg" alt="Александр Мефисто персонаж классика">
+                  </div>
+                  <div class="mySlides fade">
+                    <img src="images/forms/classic/classic3.jpg" alt="Александр Мефисто персонаж классика">
+                  </div>
+                  <div class="mySlides fade">
+                    <img src="images/forms/classic/classic4.jpg" alt="Александр Мефисто персонаж классика">
+                  </div>
+                  <div class="mySlides fade">
+                    <img src="images/forms/classic/classic5.jpg" alt="Александр Мефисто персонаж классика">
+                  </div>
+                  <a class="prev" ><i class="fa fa-caret-left" aria-hidden="true"></i></a>
+                  <a class="next" ><i class="fa fa-caret-right" aria-hidden="true"></i></a>
+                </div>
+              </div>
+              <div class="text-content">
+                <h3>Классика</h3>
+                <p>Нестареющая и вечная! Учтивость, харизма и тонкий юмор не оставят равнодушными Ваших гостей.</p><p> Ловкость рук, чтение мыслей и необъяснимые феномены. Только лучшее для Вашего праздника!</p>
+                <form action="send.php" method="post" class="rf">
+                  <input type="hidden" name="formname" value="Форма выбора персонажа">
+                  <input type="hidden" name="formtype" value="Классика">
+                  <div class="input-class">
+                    <input name="name" type="text" class="rfield" placeholder="Введите ваше имя...">
+                    <i class="fa fa-user"></i>
+                  </div>
+                  <div class="input-class">
+                    <input name="phone" class="phone rfield" type="text" placeholder="Введите ваш телефон...">
+                    <i class="fa fa-phone"></i>
+                  </div>
+                  <input type="submit" class="btn_submit disabled" value="Заказать" name="button">
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <span class="header">Рок</span>
+          <img src="images/characters/rock.jpg" alt="Александр Мефисто персонаж рок">
+          <span  class="more-details"><i  class="ref" >Смотреть подробнее характер персонажа</i>...</span>
+          <div  class="button">Заказать</div>
+          <div  class="modal">
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <div class="character-img">
+                <div class="slideshow-container">
+                  <div class="mySlides fade">
+                    <img src="images/forms/rock/rock1.jpg" alt="Александр Мефисто персонаж рок" style="width:100%">
+                  </div>
+                  <div class="mySlides fade">
+                    <img src="images/forms/rock/rock2.jpg" alt="Александр Мефисто персонаж рок" style="width:100%">
+                  </div>
+                  <div class="mySlides fade">
+                    <img src="images/forms/rock/rock3.jpg" alt="Александр Мефисто персонаж рок" style="width:100%">
+                  </div>
+                  <div class="mySlides fade">
+                    <img src="images/forms/rock/rock4.jpg" alt="Александр Мефисто персонаж рок" style="width:100%">
+                  </div>
+                  <a class="prev" ><i class="fa fa-caret-left" aria-hidden="true"></i></a>
+                  <a class="next" ><i class="fa fa-caret-right" aria-hidden="true"></i></a>
+                </div>
+              </div>
+              <div class="text-content">
+                <h3>Рок</h3>
+                <p>Невероятный драйв и энергетика рок-н-ролла!</p><p> Невообразимые, опасные, непредсказуемые, а местами даже жуткие номера, которые покажут Вам неограниченные способности Человека.</p>
+                <form action="send.php" method="post" class="rf">
+                  <input type="hidden" name="formname" value="Форма выбора персонажа">
+                  <input type="hidden" name="formtype" value="Рок">
+                  <div class="input-class">
+                    <input name="name" type="text" class="rfield" placeholder="Введите ваше имя...">
+                    <i class="fa fa-user"></i>
+                  </div>
+                  <div class="input-class">
+                    <input name="phone" class="phone rfield" type="text" placeholder="Введите ваш телефон...">
+                    <i class="fa fa-phone"></i>
+                  </div>
+                  <input type="submit" class="btn_submit disabled" value="Заказать" name="button">
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <span class="header">Бендер</span>
+          <img src="images/characters/bender.jpg" alt="Александр Мефисто персонаж Бендер">
+          <span  class="more-details"><i  class="ref" >Смотреть подробнее характер персонажа</i>...</span>
+          <div  class="button">Заказать</div>
+          <div  class="modal">
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <div class="character-img">
+                <div class="slideshow-container">
+                  <div class="mySlides fade">
+                    <img src="images/forms/bender.jpg" alt="Александр Мефисто персонаж Бендер">
+                  </div>
+                </div>
+              </div>
+              <div class="text-content">
+                <h3>Бендер</h3>
+                <p>«Великий комбинатор», «идейный борец за денежные знаки», знавший «четыреста сравнительно честных способа отъёма (увода) денег». Один из самых популярных героев плутовского романа в русской литературе.<p>
+                <p>По-настоящему добрый жулик, который Вас обманет так, что Вы будете в восторге!</p>
+                <form action="send.php" method="post" class="rf">
+                  <input type="hidden" name="formname" value="Форма выбора персонажа">
+                  <input type="hidden" name="formtype" value="Бендер">
+                  <div class="input-class">
+                    <input name="name" type="text" class="rfield" placeholder="Введите ваше имя...">
+                    <i class="fa fa-user"></i>
+                  </div>
+                  <div class="input-class">
+                    <input name="phone" class="phone rfield" type="text" placeholder="Введите ваш телефон...">
+                    <i class="fa fa-phone"></i>
+                  </div>
+                  <input type="submit" class="btn_submit disabled" value="Заказать" name="button">
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <span class="header">Стимпанк</span>
+          <img src="images/characters/stimpank.jpg" alt="Александр Мефисто персонаж Стимпанк">
+          <span  class="more-details"><i  class="ref" >Смотреть подробнее характер персонажа</i>...</span>
+          <div  class="button">Заказать</div>
+          <div  class="modal">
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <div class="character-img">
+                <div class="slideshow-container">
+                  <div class="mySlides fade">
+                    <img src="images/forms/stimpank.jpg" alt="Александр Мефисто персонаж Стимпанк">
+                  </div>
+                </div>
+              </div>
+              <div class="text-content">
+                <h3>Стимпанк</h3>
+                <p>Давайте вместе с Вами перенесёмся в мир дирижаблей и паровых машин. В то время когда алхимия, магия, наука и техника были идентичными по значению!</p><p> Эксперименты с огнём, водой, электричеством и другими природными стихиями!</p>
+                <form action="send.php" method="post" class="rf">
+                  <input type="hidden" name="formname" value="Форма выбора персонажа">
+                  <input type="hidden" name="formtype" value="Стимпанк">
+                  <div class="input-class">
+                    <input name="name" type="text" class="rfield" placeholder="Введите ваше имя...">
+                    <i class="fa fa-user"></i>
+                  </div>
+                  <div class="input-class">
+                    <input name="phone" class="phone rfield" type="text" placeholder="Введите ваш телефон...">
+                    <i class="fa fa-phone"></i>
+                  </div>
+                  <input type="submit" class="btn_submit disabled" value="Заказать" name="button">
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="theatre" >
+      <h3>Театры</h3>
+      <div class="main-img" >
+      </div>
+      <div class="items" id="theatre">
+        <div class="item" >
+          <span class="sign">Театральная Лаборатория ЦИ Образ 2013-2014</span>
+          <img src="images/theatre/obraz.jpg" alt="Александр Мефисто театр образ">
+        </div>
+        <div class="item">
+          <span class="sign">Театральная студия "Зеркало"<br> 2014-по настоящее время</span>
+          <img src="images/theatre/zerkalo.jpg" alt="Александр Мефисто театр зеркало">
+        </div>
+        <div class="item">
+          <span class="sign">Театр "Берег" <br>2014-по настоящее время </span>
+          <img src="images/theatre/bereg.jpg" alt="Александр Мефисто театр берег">
+        </div>
+        <div class="item">
+          <span class="sign">Днепропетровский телетеатр <br>2015-по настоящее время </span>
+          <img src="images/theatre/teleteatr.jpg" alt="Александр Мефисто театр телетеатр">
+        </div>
+      </div>
+    </section>
+    <footer>
+      2010-2017 &copy; Александр Мефисто
+    </footer>
+
+
+    <div class="form bottom-form">
+      <div class="photo">
+        <img src="images/portret.png" alt="Александр Мефисто фокусник иллюзионист">
+      </div>
+      <div class="content">
+        <p class="header">
+          Не можете определиться? Трудно сделать свой выбор? Остались вопросы?
+        </p>
+        <p class="sign">
+          Оставьте свои контактные данные прямо сейчас и мой менеджер свяжется с вами чтобы ответить на все интересующие вас вопросы
+        </p>
+
+        <form action="send.php" method="post" class="rf" >
+          <input type="hidden" name="formname" value="Форма обратной связи">
+          <div class="input-class">
+            <input type="text" name="name" class="rfield" placeholder="Введите ваше имя...">
+            <i class="fa fa-user"></i>
+          </div>
+          <div class="input-class">
+
+            <input type="text" class="phone rfield" name="phone" placeholder="Введите ваш телефон...">
+            <i class="fa fa-phone"></i>
+          </div>
+          <div class="input-class">
+            <input type="text" name="email"  placeholder="Введите ваш e-mail...">
+            <i class="fa fa-envelope"></i>
+          </div>
+          <input type="submit" class="btn_submit disabled" value="Отправить" >
+        </form>
+      </div>
+    </div>
+  </div>
+  <section class="bottom-contacts" id="contacts">
+  	<ul class="mobile-contacts">
+       <li> <i class="fa fa-phone" aria-hidden="true"></i>+3 8(063)24 14 954</li><br>
+       <li> <i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:alexandr.mefisto@gmail.com">alexandr.mefisto@gmail.com</a></li>
+     </ul>
+
+     <ul class="mobile-socialnetworks">
+       <li> <a target="_blank" href="https://vk.com/mefisto.show"><i class="fa fa-vk" aria-hidden="true"></i></a> </li>
+       <li> <a target="_blank" href="https://www.instagram.com/mefisto.show/"><i class="fa fa-camera" aria-hidden="true"></i></a> </li>
+       <li> <a target="_blank" href="https://www.facebook.com/1841780462766326/"><i class="fa fa-facebook-square" aria-hidden="true"></i></a> </li>
+     </ul>
+  </section>
+  <span id="chevron-down">
+	<a   href="#about"><i  class="fa fa-2x fa-chevron-down" aria-hidden="true"></i></a>
+  </span>
+  
+	<script src="main.js"></script>
+	<script src="lib/jquery/maskedinput.js"></script>
+</body>
+
+</html>
